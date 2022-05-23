@@ -1,0 +1,12 @@
+LICENSE
+LICENSE-APACHE
+LICENSE-MIT
+README.md
+pyproject.toml
+setup.cfg
+src/python_testmark.egg-info/PKG-INFO
+src/python_testmark.egg-info/SOURCES.txt
+src/python_testmark.egg-info/dependency_links.txt
+src/python_testmark.egg-info/top_level.txt
+src/testmark/__init__.py
+src/testmark/testmark.py

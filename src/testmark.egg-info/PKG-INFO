@@ -2,11 +2,11 @@ Metadata-Version: 2.1
 Name: testmark
 Version: 1.0
 Summary: a small testmark(up) parser
-Home-page: "https://github.com/iameru/python-testmark"
+Home-page: https://github.com/iameru/python-testmark
 Author: iameru@github
 Classifier: Programming Language :: Python :: 3
-Classifier: License :: Approved :: MIT License
-Classifier: License :: Approved :: Apache Software License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Operating System :: OS Independent
 Classifier: Development Status :: 4 - Beta
 Classifier: Intended Audience :: Developers
@@ -14,8 +14,18 @@ Classifier: Topic :: Software Development :: Libraries :: Python Modules
 Classifier: Topic :: Software Development :: Testing
 Classifier: Topic :: Text Processing :: Markup
 Requires-Python: >=3.6
+Description-Content-Type: text/markdown
 License-File: LICENSE
 License-File: LICENSE-APACHE
 License-File: LICENSE-MIT
 
-"testmark is a testmark-parser for python. inspired by https://github.com/warpfork/go-testmark"
+# testmark 
+
+is a testmark -> markup parser. 
+
+it parses markup for specific codeblocks beginning with a comment.
+The string inside of this markup then can be used for documentation in your markup but aswell be used in testing software or other stuff.
+
+
+inspired by [go-testmark](https://github.com/warpfork/go-testmark) where it is also **specification**.
+

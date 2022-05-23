@@ -1,7 +1,10 @@
-# python testmark parser
+# testmark 
 
-inspired by https://github.com/warpfork/go-testmark
+is a testmark -> markup parser. 
 
-issues and improvement suggestions very welcome. 
+it parses markup for specific codeblocks beginning with a comment.
+The string inside of this markup then can be used for documentation in your markup but aswell be used in testing software or other stuff.
 
-in development - missing: 1. making a package out of it 2. some more infos on usage 3. license
+
+inspired by [go-testmark](https://github.com/warpfork/go-testmark) where it is also **specification**.
+

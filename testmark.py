@@ -1,18 +1,13 @@
 from pathlib import Path
 
 
-def read_file(file: str) -> list:
-    with open(file) as f:
-        return f.readlines()
-
-
 def parse(file: str) -> dict:
     code_line = "```"
     testmark_line = "[testmark]:# "
-
-    lines = read_file(file)
-
     testmark_blocks = {}
+
+    with open(file) as f:
+        lines = f.readlines()
 
     # create all codeblock indicators
     blocks = [idx for idx, line in enumerate(lines) if line.startswith(code_line)]

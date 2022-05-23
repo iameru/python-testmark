@@ -1,5 +1,7 @@
-python testmark parser
+# python testmark parser
+
+inspired by https://github.com/warpfork/go-testmark
 
 issues and improvement suggestions very welcome. 
 
-Todo: figuring out how to build this into a sweet lil' package
+in development - missing: 1. making a package out of it 2. some more infos on usage 3. license

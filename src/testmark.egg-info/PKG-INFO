@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: testmark
+Version: 1.0
+Summary: a small testmark(up) parser
+Home-page: "https://github.com/iameru/python-testmark"
+Author: iameru@github
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Approved :: MIT License
+Classifier: License :: Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Text Processing :: Markup
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+
+"testmark is a testmark-parser for python. inspired by https://github.com/warpfork/go-testmark"

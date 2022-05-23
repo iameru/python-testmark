@@ -2,6 +2,16 @@ from pathlib import Path
 
 
 def parse(file: str) -> dict:
+    """
+    parse(file: str) -> dict:
+    input a markdown(.md) filepath
+
+    parses all testmarkformatted codeblocks.
+        returns -> a dictionairy with
+            - data-names as key
+            - codeblock content as value
+    """
+
     code_line = "```"
     testmark_line = "[testmark]:# "
     testmark_blocks = {}
